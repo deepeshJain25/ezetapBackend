@@ -32,6 +32,31 @@ app.get("/allLocations", async (req, res) => {
   return res.json(db.data.locations);
 });
 
+app.post("/addMovie", async (req, res) => {
+  await db.read();
+  const { body } = req;
+  const movieData = db.data.data;
+  body.id = movieData.length;
+  movieData.push(body);
+  await db.write();
+  return res.json(movieData[movieData.length - 1].name);
+});
+
+app.post("/updateMovie/:id", async (req, res) => {
+  await db.read();
+  const { params, body } = req;
+  const requestedMovieId = params.id;
+  const movieData = db.data.data;
+  const requiredIndex = movieData.findIndex(
+    (movie) => movie.id === requestedMovieId
+  );
+  body.id = requiredIndex + 1;
+  movieData[requiredIndex] = body;
+
+  await db.write();
+  return res.json(movieData[requiredIndex].name);
+});
+
 app.listen(PORT, () => {
   console.log("Server is running on 4000");
 });
