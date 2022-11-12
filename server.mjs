@@ -19,10 +19,18 @@ const PORT = 4000;
 
 app.get("/allMovies", async (req, res) => {
   await db.read();
-  return res.json(db.data);
+  return res.json(db.data.data);
 });
 
-app.post("/");
+app.get("/allGenres", async (req, res) => {
+  await db.read();
+  return res.json(db.data.genres);
+});
+
+app.get("/allLocations", async (req, res) => {
+  await db.read();
+  return res.json(db.data.locations);
+});
 
 app.listen(PORT, () => {
   console.log("Server is running on 4000");
