@@ -1,328 +1,343 @@
 {
   "data": [
     {
-      "name": "test",
-      "cast": ["a", "b", "c", "d"],
-      "language": "A",
-      "genre": "test genre",
-      "locations": ["a1", "a2", "a3", "a4", "c1"],
+      "id": 1,
+      "name": "Ready Player One",
+      "cast": "Tye Sheridan,Olivia",
+      "language": "English",
+      "genre": "Horror",
+      "location": [
+        {
+          "id": 1,
+          "name": "Delhi"
+        },
+        {
+          "id": 2,
+          "name": "Chandigarh"
+        },
+        {
+          "id": 3,
+          "name": "Bangalore"
+        },
+        {
+          "id": 4,
+          "name": "Pune"
+        },
+        {
+          "id": 5,
+          "name": "Mumbai"
+        },
+        {
+          "id": 6,
+          "name": "Chennai"
+        }
+      ],
       "theatres": {
-        "a1": [
+        "1": [
           {
-            "name": "1",
-            "location": "test loc 1",
-            "price": 100,
-            "shows": ["10:00", "12:00", "17:00"]
-          },
-          {
-            "name": "2",
-            "location": "test loc 2",
-            "price": 120,
-            "shows": ["10:00", "17:00"]
-          },
-          {
-            "name": "3",
-            "location": "test loc 3",
-            "price": 150,
-            "shows": ["10:00", "12:00"]
-          },
-          {
-            "name": "4",
-            "location": "test loc 4",
-            "price": 200,
-            "shows": ["12:00", "17:00"]
+            "name": "dadaw",
+            "location": "Saket",
+            "price": "500",
+            "shows": "10:00 , 12:00"
           }
         ],
-        " a2": [
+        "2": [
           {
-            "name": "1",
+            "name": "IMAX 1",
             "location": "test loc 1",
-            "price": 100,
-            "shows": ["10:00", "12:00", "17:00"]
+            "price": 1,
+            "shows": "10:00,12:00,17:00"
           },
           {
-            "name": "3",
+            "name": "IMAX 2",
             "location": "test loc 3",
             "price": 150,
-            "shows": ["10:00", "12:00"]
-          },
-          {
-            "name": "4",
-            "location": "test loc 4",
-            "price": 200,
-            "shows": ["12:00", "17:00"]
+            "shows": "10:00,12:00,17:00"
           }
         ],
-        "a3": [
+        "3": [
           {
-            "name": "2",
-            "location": "test loc 2",
-            "price": 120,
-            "shows": ["10:00", "17:00"]
-          },
-          {
-            "name": "3",
-            "location": "test loc 3",
-            "price": 150,
-            "shows": ["10:00", "12:00"]
-          },
-          {
-            "name": "4",
-            "location": "test loc 4",
-            "price": 200,
-            "shows": ["12:00", "17:00"]
+            "name": "pvr 4",
+            "location": "test",
+            "price": "test",
+            "shows": "test"
           }
         ],
-        "a4": [
+        "4": [
           {
-            "name": "1",
-            "location": "test loc 1",
-            "price": 100,
-            "shows": ["10:00", "12:00", "17:00"]
-          },
+            "name": "dadaw"
+          }
+        ],
+        "6": [
           {
-            "name": "2",
-            "location": "test loc 2",
-            "price": 120,
-            "shows": ["10:00", "17:00"]
+            "name": "pvr chennai"
           }
         ]
       }
     },
     {
-      "name": "test2",
-      "cast": ["c1"],
-      "language": "C",
-      "genre": "test genre 1",
-      "locations": ["b1", "b2", "b3", "b4"],
+      "id": 2,
+      "name": "Ready Player Two",
+      "cast": "Tye Sheridan, Olivia",
+      "language": "Hindi",
+      "genre": "Action/Sci-fi",
+      "location": [
+        {
+          "id": 1,
+          "name": "Delhi"
+        },
+        {
+          "id": 2,
+          "name": "Chandigarh"
+        }
+      ],
       "theatres": {
-        "b1": [
+        "1": [
           {
-            "name": "1",
+            "name": "PVR 1",
             "location": "test loc 1",
-            "price": 100,
-            "shows": ["10:00", "12:00", "17:00"]
+            "price": 1,
+            "shows": "10:00,12:00,17:00"
           },
           {
-            "name": "2",
+            "name": "PVR 2",
             "location": "test loc 2",
             "price": 120,
-            "shows": ["10:00", "17:00"]
+            "shows": "10:00,12:00,17:00"
           },
           {
-            "name": "3",
+            "name": "PVR 3",
             "location": "test loc 3",
             "price": 150,
-            "shows": ["10:00", "12:00"]
-          },
-          {
-            "name": "4",
-            "location": "test loc 4",
-            "price": 200,
-            "shows": ["12:00", "17:00"]
+            "shows": "10:00,12:00,17:00"
           }
         ],
-        " b2": [
+        "2": [
           {
-            "name": "1",
+            "name": "IMAX 1",
             "location": "test loc 1",
-            "price": 100,
-            "shows": ["10:00", "12:00", "17:00"]
+            "price": 1,
+            "shows": "10:00,12:00,17:00"
           },
           {
-            "name": "3",
+            "name": "IMAX 2",
             "location": "test loc 3",
             "price": 150,
-            "shows": ["10:00", "12:00"]
-          },
-          {
-            "name": "4",
-            "location": "test loc 4",
-            "price": 200,
-            "shows": ["12:00", "17:00"]
+            "shows": "10:00,12:00,17:00"
           }
         ],
-        "b3": [
+        "3": [
           {
-            "name": "2",
+            "name": "PVR 6",
             "location": "test loc 2",
             "price": 120,
-            "shows": ["10:00", "17:00"]
-          },
-          {
-            "name": "3",
-            "location": "test loc 3",
-            "price": 150,
-            "shows": ["10:00", "12:00"]
-          },
-          {
-            "name": "4",
-            "location": "test loc 4",
-            "price": 200,
-            "shows": ["12:00", "17:00"]
-          }
-        ],
-        "b4": [
-          {
-            "name": "1",
-            "location": "test loc 1",
-            "price": 100,
-            "shows": ["10:00", "12:00", "17:00"]
-          },
-          {
-            "name": "2",
-            "location": "test loc 2",
-            "price": 120,
-            "shows": ["10:00", "17:00"]
+            "shows": "10:00,12:00,17:00"
           }
         ]
       }
     },
     {
-      "name": "test3",
-      "cast": ["a2", "c2"],
-      "language": "B",
-      "genre": "test genre 2",
-      "locations": ["c1", "c2", "c3"],
+      "id": 3,
+      "name": "Ready Player Three",
+      "cast": "Tye Sheridan, Olivia",
+      "language": "Telugu",
+      "genre": "Action/Sci-fi",
+      "location": [
+        {
+          "id": 1,
+          "name": "Delhi"
+        },
+        {
+          "id": 2,
+          "name": "Chandigarh"
+        },
+        {
+          "id": 3,
+          "name": "Bangalore"
+        }
+      ],
       "theatres": {
-        "c1": [
+        "1": [
           {
-            "name": "1",
+            "name": "PVR 1",
             "location": "test loc 1",
-            "price": 100,
-            "shows": ["10:00", "12:00", "17:00"]
+            "price": 1,
+            "shows": "10:00,12:00,17:00"
           },
           {
-            "name": "2",
+            "name": "PVR 2",
             "location": "test loc 2",
             "price": 120,
-            "shows": ["10:00", "17:00"]
+            "shows": "10:00,12:00,17:00"
           },
           {
-            "name": "3",
+            "name": "PVR 3",
             "location": "test loc 3",
             "price": 150,
-            "shows": ["10:00", "12:00"]
-          },
-          {
-            "name": "4",
-            "location": "test loc 4",
-            "price": 200,
-            "shows": ["12:00", "17:00"]
+            "shows": "10:00,12:00,17:00"
           }
         ],
-        "c2": [
+        "2": [
           {
-            "name": "1",
+            "name": "IMAX 1",
             "location": "test loc 1",
-            "price": 100,
-            "shows": ["10:00", "12:00", "17:00"]
+            "price": 1,
+            "shows": "10:00,12:00,17:00"
           },
           {
-            "name": "3",
+            "name": "IMAX 2",
             "location": "test loc 3",
             "price": 150,
-            "shows": ["10:00", "12:00"]
-          },
-          {
-            "name": "4",
-            "location": "test loc 4",
-            "price": 200,
-            "shows": ["12:00", "17:00"]
+            "shows": "10:00,12:00,17:00"
           }
         ],
-        "c3": [
+        "3": [
           {
-            "name": "2",
+            "name": "PVR 6",
             "location": "test loc 2",
             "price": 120,
-            "shows": ["10:00", "17:00"]
-          },
-          {
-            "name": "3",
-            "location": "test loc 3",
-            "price": 150,
-            "shows": ["10:00", "12:00"]
-          },
-          {
-            "name": "4",
-            "location": "test loc 4",
-            "price": 200,
-            "shows": ["12:00", "17:00"]
+            "shows": "10:00,12:00,17:00"
           }
         ]
       }
     },
     {
-      "name": "test4",
-      "cast": ["a3", "b3", "c3"],
-      "language": "D",
-      "genre": "test genre 3",
-      "locations": ["d1", "d2"],
+      "name": "Jibaro",
+      "language": "English",
+      "cast": "deaf soldier, singer ghost",
+      "genre": "Horror",
+      "location": [
+        {
+          "id": 1,
+          "name": "Chandigarh"
+        }
+      ],
       "theatres": {
-        "d1": [
+        "1": [
           {
-            "name": "1",
-            "location": "test loc 1",
-            "price": 100,
-            "shows": ["10:00", "12:00", "17:00"]
+            "name": "PVR ",
+            "location": "Sector 17",
+            "price": "100",
+            "shows": "10,12,13"
           },
           {
-            "name": "2",
-            "location": "test loc 2",
-            "price": 120,
-            "shows": ["10:00", "17:00"]
-          },
+            "name": "Cineapolis",
+            "location": "Sector 43",
+            "price": "200",
+            "shows": "10,12,14"
+          }
+        ]
+      },
+      "id": 4
+    },
+    {
+      "id": 5,
+      "name": "Jumanji",
+      "cast": "Tye Sheridan,Olivia",
+      "language": "English",
+      "genre": "Romance",
+      "location": [
+        {
+          "id": 1,
+          "name": "Delhi"
+        },
+        {
+          "id": 2,
+          "name": "Chandigarh"
+        },
+        {
+          "id": 3,
+          "name": "Bangalore"
+        },
+        {
+          "id": 4,
+          "name": "Pune"
+        },
+        {
+          "id": 5,
+          "name": "Mumbai"
+        },
+        {
+          "id": 6,
+          "name": "Chennai"
+        }
+      ],
+      "theatres": {
+        "1": [
           {
-            "name": "3",
-            "location": "test loc 3",
-            "price": 150,
-            "shows": ["10:00", "12:00"]
-          },
-          {
-            "name": "4",
-            "location": "test loc 4",
-            "price": 200,
-            "shows": ["12:00", "17:00"]
+            "name": "dadaw",
+            "location": "Saket",
+            "price": "500",
+            "shows": "10:00 , 12:00"
           }
         ],
-        "d2": [
+        "2": [
           {
-            "name": "1",
+            "name": "IMAX 1",
             "location": "test loc 1",
-            "price": 100,
-            "shows": ["10:00", "12:00", "17:00"]
+            "price": 1,
+            "shows": "10:00,12:00,17:00"
           },
           {
-            "name": "3",
+            "name": "IMAX 2",
             "location": "test loc 3",
             "price": 150,
-            "shows": ["10:00", "12:00"]
-          },
+            "shows": "10:00,12:00,17:00"
+          }
+        ],
+        "3": [
           {
-            "name": "4",
-            "location": "test loc 4",
-            "price": 200,
-            "shows": ["12:00", "17:00"]
+            "name": "pvr 4",
+            "location": "test",
+            "price": "test",
+            "shows": "test"
+          }
+        ],
+        "4": [
+          {
+            "name": "dadaw"
+          }
+        ],
+        "6": [
+          {
+            "name": "pvr chennai"
           }
         ]
       }
     }
   ],
-  "genres": ["Horror", "Action", "Drama", "Romance", "Thriller", "Suspense"],
+  "genres": [
+    "Horror",
+    "Action",
+    "Drama",
+    "Romance",
+    "Thriller",
+    "Suspense"
+  ],
   "locations": [
-    "a1",
-    "a2",
-    "a3",
-    "a4",
-    "b1",
-    "b2",
-    "b3",
-    "b4",
-    "c1",
-    "c2",
-    "c3",
-    "d1",
-    "d2"
+    {
+      "id": 1,
+      "name": "Delhi"
+    },
+    {
+      "id": 2,
+      "name": "Bangalore"
+    },
+    {
+      "id": 3,
+      "name": "Chandigarh"
+    },
+    {
+      "id": 4,
+      "name": "Pune"
+    },
+    {
+      "id": 5,
+      "name": "Mumbai"
+    },
+    {
+      "id": 6,
+      "name": "Chennai"
+    }
   ]
 }
