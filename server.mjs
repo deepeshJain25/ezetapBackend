@@ -39,7 +39,9 @@ app.post("/addMovie", async (req, res) => {
   body.id = movieData.length + 1;
   movieData.push(body);
   await db.write();
-  return res.json(movieData[movieData.length - 1].name);
+  return res.json(
+    "Successfully added : " + movieData[movieData.length - 1].name
+  );
 });
 
 app.post("/updateMovie/:id", async (req, res) => {
@@ -54,7 +56,25 @@ app.post("/updateMovie/:id", async (req, res) => {
   body.id = requiredIndex + 1;
   movieData[requiredIndex] = body;
   await db.write();
-  return res.json(movieData[requiredIndex].name);
+  return res.json("Successfully updated : " + movieData[requiredIndex].name);
+});
+
+app.post("/deleteMovie/:name", async (req, res) => {
+  await db.read();
+  const { params } = req;
+  const movieToBeDeleted = params.name;
+  const movieData = db.data.data;
+
+  const newMovieData = movieData.filter((movie) => {
+    return !(movie.name === movieToBeDeleted);
+  });
+  const updatedMovieData = newMovieData.map((movie, i) => {
+    movie.id = i + 1;
+    return movie;
+  });
+  db.data.data = updatedMovieData;
+  await db.write();
+  return res.json("Successfully deleted : " + movieToBeDeleted);
 });
 
 app.listen(PORT, () => {
