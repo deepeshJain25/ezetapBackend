@@ -51,13 +51,13 @@
           {
             "name": "IMAX 2",
             "location": "test loc 3",
-            "price": 150,
+            "price": "150",
             "shows": "10:00,12:00,17:00"
           }
         ],
         "3": [
           {
-            "name": "pvr 4",
+            "name": "PVR",
             "location": "test",
             "price": "test",
             "shows": "test"
@@ -65,7 +65,7 @@
         ],
         "4": [
           {
-            "name": "dadaw",
+            "name": "PVR",
             "location": "Viman nagar",
             "price": "4000",
             "shows": "10,20,23"
@@ -73,7 +73,7 @@
         ],
         "6": [
           {
-            "name": "pvr chennai"
+            "name": "PVR chennai"
           }
         ]
       }
@@ -103,19 +103,19 @@
           {
             "name": "PVR 1",
             "location": "test loc 1",
-            "price": 1,
+            "price": "100",
             "shows": "10:00,12:00,17:00"
           },
           {
             "name": "PVR 2",
             "location": "test loc 2",
-            "price": 120,
+            "price": "120",
             "shows": "10:00,12:00,17:00"
           },
           {
             "name": "PVR 3",
             "location": "test loc 3",
-            "price": 150,
+            "price": "150",
             "shows": "10:00,12:00,17:00"
           }
         ],
@@ -123,7 +123,7 @@
           {
             "name": "IMAX 2",
             "location": "test loc 3",
-            "price": 150,
+            "price": "150",
             "shows": "10:00,12:00,17:00"
           }
         ]
@@ -154,19 +154,19 @@
           {
             "name": "PVR 1",
             "location": "test loc 1",
-            "price": 1,
+            "price": "250",
             "shows": "10:00,12:00,17:00"
           },
           {
             "name": "PVR 2",
             "location": "test loc 2",
-            "price": 120,
+            "price": "120",
             "shows": "10:00,12:00,17:00"
           },
           {
             "name": "PVR 3",
             "location": "test loc 3",
-            "price": 150,
+            "price": "150",
             "shows": "10:00,12:00,17:00"
           }
         ],
@@ -174,13 +174,13 @@
           {
             "name": "IMAX 1",
             "location": "test loc 1",
-            "price": 1,
+            "price": "400",
             "shows": "10:00,12:00,17:00"
           },
           {
             "name": "IMAX 2",
             "location": "test loc 3",
-            "price": 150,
+            "price": "1500",
             "shows": "10:00,12:00,17:00"
           }
         ],
@@ -188,7 +188,7 @@
           {
             "name": "PVR 6",
             "location": "test loc 2",
-            "price": 120,
+            "price": "120",
             "shows": "10:00,12:00,17:00"
           }
         ]
@@ -258,7 +258,7 @@
       "theatres": {
         "1": [
           {
-            "name": "dadaw",
+            "name": "INOX",
             "location": "Saket",
             "price": "500",
             "shows": "10:00 , 12:00"
@@ -274,13 +274,13 @@
           {
             "name": "IMAX 2",
             "location": "test loc 3",
-            "price": 150,
+            "price": "150",
             "shows": "10:00,12:00,17:00"
           }
         ],
         "3": [
           {
-            "name": "pvr 4",
+            "name": "PVR 4",
             "location": "test",
             "price": "test",
             "shows": "test"
@@ -288,7 +288,7 @@
         ],
         "4": [
           {
-            "name": "dadaw"
+            "name": "Cineapolis"
           }
         ],
         "6": [
